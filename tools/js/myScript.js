@@ -24,3 +24,14 @@ function myFunction() {
     x.className = "navbar";
   }
 }
+var face= document.querySelector(".social");
+face.animate([
+  {transform: 'translateY(0em)'},
+  {transform: 'translateY(-5em)'},
+  {transform: 'translateY(5em)'}
+],{
+  duration: 2000,
+  iterations: 2,
+  direction: "alternate"
+
+});
